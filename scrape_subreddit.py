@@ -52,7 +52,7 @@ def main():
   sample = generate_posts("relationships", 1000)
   post_data = parse_submissions(sample)
   df = pd.DataFrame(post_data)
-  df.to_csv("rship.csv")
+  df.to_csv("rship_data.csv")
 
 if __name__ == "__main__":
   main()
