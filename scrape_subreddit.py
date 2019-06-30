@@ -1,19 +1,18 @@
 import praw 
 import pandas as pd
-import warnings
 
 
 CLIENT_ID = 'SECRET'
 SECRET_ID = 'SECRET'
 PW = 'SECRET'
 USERNAME = 'SECRET'
-reddit = praw.Reddit(
+reddit = praw.Reddit( 
                      client_id=CLIENT_ID,
                      client_secret= SECRET_ID,
                      password=PW,
-                     user_agent='testscript by /u/fakebot3',
+                     user_agent='testscript by /u/SECRET',
                      username=USERNAME
-                     )
+)
 
 
 # Get a random sample of posts
@@ -36,8 +35,6 @@ def parse_submissions(submissions):
     print("POST {} OF MAX: {}".format(submission_count, len(submissions)))
   return all_post_data
 
-
-
 # Returns info about a post 
 def get_post_data(post):
   post_info = {
@@ -51,38 +48,11 @@ def get_post_data(post):
   }
   return post_info
 
-# Check if item in list and update list if not
-def already_added(added_list, item):
-  if item in added_list:
-    return True
-  else: 
-    added_list.append(item)
-    return False
-
-# Execute functions to download sample data as csv
-def download_sample(subredit, nposts):
-   sample = generate_posts(subreddit, nposts)
-   post_data = parse_submissions(sample)
-   df = pd.DataFrame(post_data)
-   df.to_csv("rship.csv")
-
 def main():
-  """Download data for a sample of n posts from a subreddit 
+  sample = generate_posts("relationships", 1000)
+  post_data = parse_submissions(sample)
+  df = pd.DataFrame(post_data)
+  df.to_csv("rship.csv")
 
-  Keyword args:
-  subreddit -- subreddit to scrape
-  nposts -- posts to scrape 
-
-  Will return a CSV with the following info:
-  1. title
-  2. flair
-  3. post_id
-  4. self text
-  5. score
-  6. upvote ratio 
-  7. number of comments 
-  """
-  download_sample('relationship_advice', 1000)
-  
 if __name__ == "__main__":
   main()
