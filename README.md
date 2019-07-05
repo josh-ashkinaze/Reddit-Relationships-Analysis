@@ -1,5 +1,5 @@
-# An analysis of the Reddit "Relationship Advice" subreddit
+# An analysis of the Reddit "Relationships" subreddit
 
 I use exploratory data analysis and machine learning to understand what Redditors talk about when they talk about love. 
 
-Click the Google Collab for an interactive analysis! 
+Look at the .ipynb file for some analysis. 
