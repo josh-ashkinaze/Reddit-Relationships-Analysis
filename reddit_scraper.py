@@ -3,15 +3,15 @@ import pandas as pd
 from sys import argv
 
 
-CLIENT_ID = 'LrnElYx-o4jf8g'
-SECRET_ID = 'UERC-XdvxAeVWjdPi3vro8CE8o4'
-PW = 'elasticmind'
-USERNAME = 't3cblaze'
+CLIENT_ID = 'CLIENT_ID'
+SECRET_ID = 'SECRET_ID'
+PW = 'PW'
+USERNAME = 'USERNAME'
 reddit = praw.Reddit(
                      client_id=CLIENT_ID,
                      client_secret= SECRET_ID,
                      password=PW,
-                     user_agent='testscript by /u/fakebot3',
+                     user_agent='testscript by /u/giddygithub,
                      username=USERNAME
                      )
 
