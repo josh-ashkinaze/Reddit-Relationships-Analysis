@@ -1,8 +1,13 @@
 # An analysis of the Reddit "Relationships" subreddit
 
-I use exploratory data analysis and machine learning to understand what Redditors talk about when they talk about love. 
+I use exploratory data analysis and machine learning to understand what Redditors talk about when they talk about love! 
 
-Look at the .ipynb file for my analysis. 
+Look at the .ipynb file for my code. 
+
+And here is my writeup of the project:
+https://www.joshash.space/data-science/reddit-relationships
+
+
 
 List of files in repo:
 * reddit_scraper.py scrapes top N reddit posts of subreddit S
