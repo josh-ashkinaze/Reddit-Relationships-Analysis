@@ -16,6 +16,6 @@ List of files in repo:
 	 * title 
 	 * upvote_ratio
  * relationships.csv
-  *  888 top posts from r/relationships
+ 	*  888 top posts from r/relationships
  * reddit_analysis.ipynb
-  * A python notebook containing analysis of the data
+ 	* A python notebook containing analysis of the data
