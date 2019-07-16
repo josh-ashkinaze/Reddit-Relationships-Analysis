@@ -2,12 +2,6 @@
 
 I use exploratory data analysis and machine learning to understand what Redditors talk about when they talk about love! 
 
-Look at the .ipynb file for my code. 
-
-And here is my writeup of the project:
-https://www.joshash.space/data-science/reddit-relationships
-
-
 
 List of files in repo:
 * reddit_scraper.py scrapes top N reddit posts of subreddit S
@@ -24,3 +18,20 @@ List of files in repo:
  	*  888 top posts from r/relationships
  * reddit_analysis.ipynb
  	* A python notebook containing analysis of the data
+	
+	
+	would predict.
+
+
+Read my blog for a write-up and look at the ipynb notebook for analysis! 
+
+Blog entry: https://www.joshash.space/data-science/reddit-relationships
+
+
+```
+         .        .  
+  * _  __|_  _. __|_ 
+  |(_)_) [ )(_]_) [ )
+._|
+
+```
