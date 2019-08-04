@@ -4,7 +4,7 @@ I use exploratory data analysis and machine learning to understand what Redditor
 
 
 List of files in repo:
-* ```reddit_scraper.py`` scrapes top ```N``` reddit posts of subreddit ```S```
+* ```reddit_scraper.py``` scrapes top ```N``` reddit posts of subreddit ```S```
   * It returns the following information for each post in a dataframe:
 	 * author 
 	 * flair 
