@@ -4,8 +4,8 @@ I use exploratory data analysis and machine learning to understand what Redditor
 
 
 List of files in repo:
-* reddit_scraper.py scrapes top N reddit posts of subreddit S
-  * It returns the following information for each post that is scraped:
+* ```reddit_scraper.py`` scrapes top ```N``` reddit posts of subreddit ```S```
+  * It returns the following information for each post in a dataframe:
 	 * author 
 	 * flair 
 	 * post_id 
@@ -14,13 +14,11 @@ List of files in repo:
 	 * timestamp 
 	 * title 
 	 * upvote_ratio
- * relationships_data.csv
+ * ```relationships_data.csv```
  	*  888 top posts from r/relationships
- * reddit_analysis.ipynb
+ * ```reddit_analysis.ipynb```
  	* A python notebook containing analysis of the data
 	
-	
-	would predict.
 
 
 Read my blog for a write-up and look at the ipynb notebook for analysis! 
