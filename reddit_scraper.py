@@ -67,7 +67,6 @@ def get_post_data(post):
   }
   return post_info
   
-
 def update_list(input_list, candinate):
   """ Add candinate to list if not already in list """
   if candinate in input_list:
@@ -78,15 +77,6 @@ def update_list(input_list, candinate):
   
 def main():  
   sub, nposts = "relationships", 1000
-  retrieve_data(sub, nposts)
+  reddit_data = retrieve_data(sub, nposts)
 
-if __name__ == "__main__":
-  try:
-    sub = sys.argv[0]
-    n = sys.argv[1] 
-    retrieve_data(sub, n)
-  except: 
-    print("Please enter the subreddit followed by desired number of posts to scrape.")
-
-
-  main()
+main()
